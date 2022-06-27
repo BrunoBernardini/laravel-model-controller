@@ -1,0 +1,12 @@
+header{
+    background-color: lightgray;
+    a.nav-link{
+        color: rgb(68, 68, 68);
+        &:hover{
+            color: black;
+        }
+    }
+    .active a{
+        color: red;
+    }
+}
